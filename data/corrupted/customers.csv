@@ -1,0 +1,19 @@
+organisation_id,customer_id,first_name,last_name,email,registration_date
+ORG001,CUST001,Sarah,Moore,sarah.moore@example.com,2024-10-16 00:00:00
+ORG001,CUST002,Michael,Miller,michael.miller@example.com,2025-05-08 00:00:00
+ORG001,CUST003,Sarah,Thomas,sarah.thomas@example.com,2023-07-22 00:00:00
+ORG001,CUST004,Sarah,Davis,sarah.davis@example.com,2025-09-02 00:00:00
+ORG001,CUST005,Joy,Moore,joy.moore@example.com,2024-12-18 00:00:00
+ORG002,CUST001,Joy,Davis,joy.davis@example.com,2023-05-09 00:00:00
+ORG002,CUST002,Peter,Miller,peter.miller@example.com,2024-05-15 00:00:00
+ORG002,CUST003,Grace,Brown,grace.brown@example.com,2025-07-15 00:00:00
+ORG002,CUST004,Joy,Taylor,joy.taylor@example.com,2024-02-08 00:00:00
+ORG002,CUST005,Peter,Wilson,peter.wilson@example.com,2024-03-19 00:00:00
+ORG003,CUST001,Michael,Williams,michael.williams@example.com,2023-04-04 00:00:00
+ORG003,CUST002,James,Lee,james.lee@example.com,2023-03-06 00:00:00
+ORG003,CUST003,Peter,Martin,peter.martin@example.com,2023-10-05 00:00:00
+ORG003,CUST004,Esther,Brown,esther.brown@example.com,2025-01-28 00:00:00
+ORG003,CUST005,Samuel,Garcia,samuel.garcia@example.com,2023-03-10 00:00:00
+,CUST999,Sarah,Moore,corrupt.customer@example.com,2024-10-16 00:00:00
+ORG001,CUST001,Duplicate,Moore,duplicate@example.com,2024-10-16 00:00:00
+ORG002,CUSTORG2ONLY,Joy,Davis,org2.only@example.com,2023-05-09 00:00:00

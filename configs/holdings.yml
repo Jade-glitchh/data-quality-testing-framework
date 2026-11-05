@@ -1,0 +1,22 @@
+table: holdings
+checks:
+- type: not_null
+  column: holding_id
+  severity: ERROR
+- type: not_null
+  column: portfolio_id
+  severity: ERROR
+- type: not_null
+  column: organisation_id
+  severity: ERROR
+- type: unique_key
+  columns:
+  - holding_id
+  severity: ERROR
+- type: cross_tenant
+  parent_table: portfolios
+  child_key: portfolio_id
+  parent_key: portfolio_id
+  child_tenant_column: organisation_id
+  parent_tenant_column: organisation_id
+  severity: ERROR

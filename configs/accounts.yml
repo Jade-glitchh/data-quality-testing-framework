@@ -1,0 +1,27 @@
+table: accounts
+
+checks:
+  - type: not_null
+    column: account_id
+    severity: ERROR
+
+  - type: not_null
+    column: organisation_id
+    severity: ERROR
+
+  - type: not_null
+    column: customer_id
+    severity: ERROR
+
+  - type: unique_key
+    columns:
+      - account_id
+    severity: ERROR
+
+  - type: cross_tenant
+    parent_table: customers
+    child_key: customer_id
+    parent_key: customer_id
+    child_tenant_column: organisation_id
+    parent_tenant_column: organisation_id
+    severity: ERROR

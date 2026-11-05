@@ -1,0 +1,9 @@
+table: securities
+checks:
+- type: not_null
+  column: security_id
+  severity: ERROR
+- type: unique_key
+  columns:
+  - security_id
+  severity: ERROR

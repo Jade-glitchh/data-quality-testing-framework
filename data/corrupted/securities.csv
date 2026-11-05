@@ -1,0 +1,11 @@
+security_id,security_name,security_type,market_price,currency
+SEC001,Apple Inc.,Stock,228.85,USD
+SEC002,Microsoft Corp.,Stock,496.34,USD
+SEC003,Amazon.com Inc.,Stock,448.01,USD
+SEC004,Tesla Inc.,Stock,379.33,USD
+SEC005,Alphabet Inc.,Stock,447.58,USD
+SEC006,US Treasury Bond,Bond,448.85,USD
+SEC007,Corporate Bond A,Bond,269.05,USD
+SEC008,Vanguard S&P 500 ETF,ETF,171.65,USD
+SEC009,iShares Core MSCI ETF,ETF,390.57,USD
+SEC010,Global Equity Fund,Mutual Fund,337.6,USD

@@ -1,0 +1,12 @@
+table: fee_schedules
+checks:
+- type: not_null
+  column: fee_schedule_id
+  severity: ERROR
+- type: not_null
+  column: organisation_id
+  severity: ERROR
+- type: unique_key
+  columns:
+  - fee_schedule_id
+  severity: ERROR

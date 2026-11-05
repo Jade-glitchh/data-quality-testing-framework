@@ -1,0 +1,13 @@
+table: customers
+checks:
+- type: not_null
+  column: organisation_id
+  severity: ERROR
+- type: not_null
+  column: customer_id
+  severity: ERROR
+- type: unique_key
+  columns:
+  - organisation_id
+  - customer_id
+  severity: ERROR

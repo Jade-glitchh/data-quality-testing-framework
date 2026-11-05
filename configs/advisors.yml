@@ -1,0 +1,12 @@
+table: advisors
+checks:
+- type: not_null
+  column: advisor_id
+  severity: ERROR
+- type: not_null
+  column: organisation_id
+  severity: ERROR
+- type: unique_key
+  columns:
+  - advisor_id
+  severity: ERROR

@@ -1,0 +1,22 @@
+table: transactions
+checks:
+- type: not_null
+  column: transaction_id
+  severity: ERROR
+- type: not_null
+  column: organisation_id
+  severity: ERROR
+- type: not_null
+  column: account_id
+  severity: ERROR
+- type: unique_key
+  columns:
+  - transaction_id
+  severity: ERROR
+- type: cross_tenant
+  parent_table: accounts
+  child_key: account_id
+  parent_key: account_id
+  child_tenant_column: organisation_id
+  parent_tenant_column: organisation_id
+  severity: ERROR

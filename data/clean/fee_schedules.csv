@@ -1,0 +1,10 @@
+fee_schedule_id,organisation_id,fee_type,fee_percentage,effective_date
+FEE001,ORG001,Management Fee,1.24,2024-01-01
+FEE002,ORG001,Transaction Fee,2.64,2024-01-01
+FEE003,ORG001,Advisory Fee,2.93,2024-01-01
+FEE004,ORG002,Management Fee,2.63,2024-01-01
+FEE005,ORG002,Transaction Fee,0.66,2024-01-01
+FEE006,ORG002,Advisory Fee,0.74,2024-01-01
+FEE007,ORG003,Management Fee,2.0,2024-01-01
+FEE008,ORG003,Transaction Fee,0.94,2024-01-01
+FEE009,ORG003,Advisory Fee,2.23,2024-01-01
