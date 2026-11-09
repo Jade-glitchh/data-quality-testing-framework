@@ -20,3 +20,6 @@ checks:
   child_tenant_column: organisation_id
   parent_tenant_column: organisation_id
   severity: ERROR
+- type: row_count
+  expected_count: 180
+  severity: ERROR

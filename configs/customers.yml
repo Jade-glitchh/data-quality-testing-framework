@@ -11,3 +11,6 @@ checks:
   - organisation_id
   - customer_id
   severity: ERROR
+- type: row_count
+  expected_count: 15
+  severity: ERROR

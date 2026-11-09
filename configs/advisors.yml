@@ -10,3 +10,6 @@ checks:
   columns:
   - advisor_id
   severity: ERROR
+- type: row_count
+  expected_count: 9
+  severity: ERROR
